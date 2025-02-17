@@ -1,4 +1,4 @@
-name: ia2-despliegue-algo
+name: bd14-despliegue-algo
 channels: 
   - defaults 
   - conda-forge 
