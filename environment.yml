@@ -1,4 +1,4 @@
-name: bd14-despliegue-algo
+name: bd14-despliegue-algo2
 channels: 
   - defaults 
   - conda-forge 
@@ -12,5 +12,9 @@ dependencies:
   - pip: 
     - fastapi==0.115.6
     - mlflow==2.18.0
+    - pandas=2.2.2
+    - numpy= 1.26.4
+    - mlflow==2.18.0
+    - scikit-learn=1.6.1
 
     

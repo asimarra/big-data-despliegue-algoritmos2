@@ -1,0 +1,27 @@
+------------------------
+17 de febrero 2025 
+------------------------
+
+
+# 1 - Crear .env para el proyecto
+conda env create --file environment.yml
+
+# 2 - 
+source activate base # ( this would activate your conda base env )
+
+# 3 - 
+conda activate bd14-despliegue-algo
+
+# 4 -
+mlflow ui
+
+------------------------
+18 de febrero 2025 
+------------------------
+
+fastapi dev main_hello.py
+fastapi dev main_fastapi.py
+
+
+# Run project from script
+python main_practice.py --job_name practice_test_1 --n_estimators_list 5 10 20 --max_dept 15 --max_features 5000 --class_weight balanced
