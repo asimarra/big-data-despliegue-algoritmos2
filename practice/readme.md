@@ -1,10 +1,10 @@
-# Práctica Final: DEspliegue de algoritmos
+# Práctica Final: Despliegue de algoritmos
 
 ## Instrucciones
 
 ### Punto 1: Clasificación con Scikit-learn y MLflow
 
-1. En el archivo Punto_1.ipynb se encuentra el proceso de exploración de datos usado en NLP. Se hicieron pequeños ajustes y al final almacene el resultado del pre-procesado en el archivo cleaned_reviews.csv.
+1. En el archivo **Punto_1.ipynb** se encuentra el proceso de exploración de datos usado en NLP. Se hicieron pequeños ajustes y al final almacene el resultado del pre-procesado en el archivo cleaned_reviews.csv.
 2. Para ejecutar el modelo y enviar metricas a MLflow use el siguiente comando:
 
 ```python
@@ -25,3 +25,14 @@ python main_practice.py --job_name practice_test_1 --n_estimators_list 5 10 20 -
 1. Incluido en el punto anterior.
 
 ### Punto 3
+
+1. El API fue desarrollado en Google Colab y expuesto con ngrok porque estaba teniendo inconvenientes con la ejecución del API en local. La solución se encuentra en el archivo **FAST_API.ipynb**. A continuación las capturas de pantallas:
+
+- ![images/1.png](images/1.png)
+- ![images/2.png](images/2.png)
+- ![images/3.png](images/3.png)
+- ![images/4.png](images/4.png)
+- ![images/5.png](images/5.png)
+- ![images/6.png](images/6.png)
+
+

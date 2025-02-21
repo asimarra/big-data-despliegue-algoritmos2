@@ -4,3 +4,7 @@ pandas=2.2.2
 numpy= 1.26.4
 mlflow==2.18.0
 scikit-learn=1.6.1
+fastapi
+google-generativeai
+fastapi[standard]
+joblib
